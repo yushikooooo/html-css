@@ -1,0 +1,25 @@
+.right-menu,
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.menu-item {
+  margin-left: 20px;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url(../images/cover.webp);
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

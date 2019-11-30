@@ -1,0 +1,21 @@
+%content-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+}
+.right-menu,
+.nav-bar{
+    @extend %content-between;
+}
+
+.menu-item{
+    margin-left: 20px;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(../images/cover.webp);
+    background-size:cover;
+}
